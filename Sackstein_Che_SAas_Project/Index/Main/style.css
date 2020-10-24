@@ -1,0 +1,604 @@
+* {
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins-ExtraLight.ttf);
+}
+.body {
+  background-color: #ebeff2;
+}
+
+.search {
+  height: 60px;
+  left: 256px;
+  background: #ffffff;
+}
+
+@media screen and (max-width: 1242px) {
+  .search {
+    display: flex;
+  }
+  .smallCard {
+    flex-shrink: inherit;
+  }
+  .rectangle {
+    flex-shrink: inherit;
+  }
+  .side_nav_bg {
+    flex-shrink: inherit;
+  }
+}
+.icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 36px;
+  top: 18px;
+}
+.global {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  /* gray */
+
+  color: #90a0b7;
+}
+.top_bar_bg {
+  /* top_bar_bg */
+
+  height: 60px;
+  left: 256px;
+
+  /* white */
+
+  background: #ffffff;
+}
+
+.side_nav_bg {
+  position: absolute;
+  width: 256px;
+  height: 718px;
+
+  /* white */
+
+  background: #ffffff;
+  /* sidebar shadow */
+
+  box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+}
+
+.SaAs_Kit {
+  position: absolute;
+  width: 69px;
+  height: 26px;
+  left: 24px;
+  top: 17px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+
+  /* Accent blue */
+
+  color: #109cf1;
+}
+
+.medium_14_black {
+  /* text/medium_14_black */
+
+  position: absolute;
+  width: 146px;
+  height: 21px;
+  left: 86px;
+  top: 88px;
+}
+.medium_11_gray {
+  position: absolute;
+  width: 146px;
+  height: 17px;
+  left: 86px;
+  top: 111px;
+}
+
+.top_nav_divider {
+  /* top_devider */
+
+  position: absolute;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  top: 60px;
+
+  /* divider */
+
+  background: #ebeff2;
+}
+
+.profile_email {
+  position: absolute;
+  width: 146px;
+  height: 17px;
+  left: 86px;
+  top: 111px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  /* gray */
+
+  color: #90a0b7;
+}
+
+.profile_name {
+  /* Sierra Ferguson */
+  position: absolute;
+  width: 146px;
+  height: 21px;
+  left: 86px;
+  top: 88px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  /* black */
+
+  color: #192a3e;
+}
+
+.avatar {
+  width: 46px;
+  height: 46px;
+  left: 24px;
+  top: 85px;
+}
+.Image-2 {
+  /* image 2 */
+
+  width: 46px;
+  height: 46px;
+  left: 24px;
+  top: 85px;
+
+  background: url(image.png);
+  display: inline-block;
+}
+.ellips {
+  /* Ellipse */
+
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 24px;
+  top: 85px;
+
+  background: #e5e5e5;
+  display: inline-block;
+}
+
+.profile {
+  position: absolute;
+  width: 208px;
+  height: 46px;
+  left: 24px;
+  top: 85px;
+  display: flex-box;
+}
+
+.dashboard {
+  /* dashboard */
+
+  width: 174px;
+  height: 20px;
+  left: 58px;
+  top: 171px;
+}
+
+.dashboard-active {
+  /* icon/menu/dashboard-active */
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 171px;
+}
+
+.vector1 {
+  /* icon/menu/dashboard-active */
+  /* Vector */
+
+  position: absolute;
+  left: 12.5%;
+  right: 12.5%;
+  top: 12.5%;
+  bottom: 12.5%;
+
+  /* Accent blue */
+
+  border: 1.4px solid #109cf1;
+  box-sizing: border-box;
+  border-radius: 1px;
+}
+
+.vector2 {
+  /* Vector */
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.medium_13_accent {
+  /* text/medium_13_accent */
+
+  position: absolute;
+  width: 174px;
+  height: 20px;
+  left: 58px;
+  top: 171px;
+  display: inline-block;
+}
+.dashboardtext {
+  /* Dashboard */
+
+  position: absolute;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  /* Accent blue */
+
+  color: #109cf1;
+}
+
+.smallCardTasks {
+  /* Rectangle */
+
+  position: absolute;
+  width: 800px;
+  height: 344px;
+  right: 38px;
+  top: 96px;
+
+  /* white */
+
+  background: #ffffff;
+  /* box shadow */
+
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  flex-grow: inherit;
+}
+
+.smallCardGraph {
+  /* Rectangle */
+
+  position: absolute;
+  width: 800px;
+  height: 344px;
+  right: 38px;
+  top: 96px;
+
+  /* white */
+
+  background: #ffffff;
+  /* box shadow */
+
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  flex-grow: inherit;
+}
+
+.trash {
+  /* Vector */
+
+  position: absolute;
+  left: 20.83%;
+  right: 20.83%;
+  top: 12.5%;
+  bottom: 12.5%;
+}
+
+.pen {
+  position: absolute;
+  left: 12.5%;
+  right: 12.49%;
+  top: 12.49%;
+  bottom: 12.5%;
+}
+.toggleSidebar {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  /* gray */
+
+  color: #90a0b7;
+  position: absolute;
+  width: 146px;
+  height: 17px;
+  left: 55px;
+  bottom: 22px;
+}
+
+.showMore {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  /* Accent blue */
+
+  color: #109cf1;
+
+  position: absolute;
+  width: 160px;
+  height: 20px;
+  left: calc(50% - 160px / 2 - 0.5px);
+  bottom: 14px;
+}
+
+.closed_deals {
+  /* closed_deals */
+
+  position: absolute;
+  width: 149px;
+  height: 16px;
+  left: 40px;
+  top: 71px;
+  display: flex;
+  font-family: Poppins;
+  font-size: 10px;
+}
+
+.graphic {
+  /* closed_deals */
+
+  position: absolute;
+  width: 397px;
+  height: 222px;
+  left: 24px;
+  top: 106px;
+}
+
+.cardGraphic {
+  position: absolute;
+  width: 397px;
+  height: 222px;
+  left: 24px;
+  top: 106px;
+}
+.deals_graphic.divider {
+  /* devider */
+
+  position: absolute;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  top: 54px;
+  display: flex;
+
+  /* divider */
+
+  background: #ebeff2;
+}
+
+.deals_graphic.medium_15_black {
+  /* text/medium_15_black */
+
+  position: absolute;
+  width: 200px;
+  height: 22px;
+  right: 221px;
+  top: 16px;
+}
+.deals.regular_10 {
+  /* text/regular_10 */
+
+  position: absolute;
+  width: 149px;
+  height: 16px;
+  left: 40px;
+  top: 71px;
+}
+.cardHeading {
+  /* Deals */
+
+  position: absolute;
+  left: 5px;
+  right: 0%;
+  top: 5px;
+  bottom: -4.55%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  /* black */
+
+  color: #192a3e;
+}
+.Monthly {
+  /* Show: Monthly */
+
+  width: 87px;
+  height: 18px;
+  left: 322px;
+  top: 19px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  color: #6a707e;
+}
+
+.medium_13_darkblue {
+  position: absolute;
+  width: 354px;
+  height: 20px;
+  left: 24px;
+  top: 16px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  justify-content: space-evenly;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  /* dark_blue */
+
+  color: #334d6e;
+}
+
+.regular_13_tablegray {
+  position: absolute;
+  width: 160px;
+  height: 20px;
+  left: 76px;
+  top: 331px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  /* table_gray */
+
+  color: #707683;
+}
+
+.medium_12_gray {
+  /* text/medium_12_gray */
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: right;
+  letter-spacing: 0.01em;
+
+  /* gray */
+
+  color: #90a0b7;
+}
+
+.divider {
+  /* devider */
+
+  position: absolute;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  top: 54px;
+  display: flex;
+
+  /* divider */
+
+  background: #ebeff2;
+}
+.row {
+  display: inline-block;
+}
+
+.group1 {
+  width: 224px;
+  height: 224px;
+  left: 48px;
+  top: 88px;
+}
+
+.side_nav_divider {
+  position: absolute;
+  width: 256px;
+  height: 1px;
+  left: 0px;
+  top: 415px;
+
+  /* divider */
+
+  background: #ebeff2;
+}
+
+.bell {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 36px;
+  top: 18px;
+}
+.subtract {
+  /* Subtract */
+
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 0px;
+  top: 0px;
+}

@@ -1,0 +1,264 @@
+.calender {
+  display: flex;
+}
+
+.date {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  /* profile_gray */
+
+  color: #4c5862;
+}
+.dayOfTheWeek {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  /* dark_blue */
+
+  color: #334d6e;
+  opacity: 0.5;
+}
+
+.smallRectangleRed {
+  /* status/task/ended */
+
+  height: 22px;
+  width: 84px;
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  color: #ffffff;
+  /* red */
+
+  background: #f7685b;
+  border-radius: 4px;
+  display: flex;
+}
+.rectangletext {
+  position: absolute;
+  bottom: 30%;
+  top: 15%;
+  right: 15%;
+  left: 15%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.smallRectangleGreen {
+  /* Rectangle 6 */
+
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  height: 22px;
+  width: 84px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: Poppins;
+  display: flex;
+
+  /* green */
+
+  background: #2ed47a;
+}
+
+.rectangleHeading {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  /* table_black */
+
+  color: #323c47;
+}
+.duedate {
+  position: relative;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  /* dark_gray text */
+
+  color: #4c5862;
+  opacity: 0.5;
+}
+.date {
+  width: 222px;
+  height: 20px;
+  left: 109px;
+  top: 289px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  /* dark_gray text */
+
+  color: #4c5862;
+}
+.dateToday {
+  /* 23 December, Sunday */
+
+  position: absolute;
+  width: 400px;
+  height: 22px;
+  left: 24px;
+  top: 76px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  color: #192a3e;
+}
+.rectangle51 {
+  /* Rectangle 5.1 */
+
+  position: absolute;
+  height: 4px;
+  left: 24px;
+  right: 141px;
+  top: 52px;
+  display: flex;
+
+  /* green */
+
+  background: #2ed47a;
+  border-radius: 4px;
+}
+
+.rectangle {
+  /* Rectangle */
+
+  position: absolute;
+  height: 718px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  display: inline-block;
+
+  /* white */
+
+  background-color: #ffffff;
+  /* box shadow */
+
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+
+.rectangle4 {
+  /* Rectangle 4 */
+
+  position: absolute;
+  height: 126px;
+  left: 24px;
+  right: 24px;
+  top: 243px;
+
+  /* white */
+
+  background: #ffffff;
+  /* card shadow */
+
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+.rectangle41 {
+  /* Rectangle 4.1 */
+
+  position: absolute;
+  height: 126px;
+  left: 24px;
+  right: 24px;
+  top: 393px;
+
+  /* white */
+
+  background: #ffffff;
+  /* card_replacing shadow */
+
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+}
+
+.rectangle42 {
+  /* Rectangle 4.2 */
+
+  position: absolute;
+  height: 126px;
+  left: 24px;
+  right: 24px;
+  top: 543px;
+
+  /* white */
+
+  background: #ffffff;
+  /* card shadow */
+
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+.tasks {
+  /* tasks */
+
+  position: relative;
+  height: 718px;
+  left: 292px;
+  right: 513px;
+  top: 96px;
+  width: 700px;
+  background-color: #ffffff;
+}

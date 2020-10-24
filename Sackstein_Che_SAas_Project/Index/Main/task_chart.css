@@ -1,0 +1,210 @@
+.group1 {
+  /* Group 1 */
+
+  position: absolute;
+  width: 124px;
+  height: 124px;
+  left: 48px;
+  top: 128px;
+  background-color: #ffffff;
+  display: flexbox;
+}
+
+.medium_56_green {
+  /* text/medium_56_green */
+
+  position: absolute;
+  width: 200px;
+  height: 82px;
+  left: 60px;
+  top: 259px;
+}
+
+.percentage {
+  /* 60% */
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 84px;
+  text-align: center;
+
+  /* green */
+
+  color: #2ed47a;
+}
+
+.taskschart .divider {
+  /* devider */
+
+  position: absolute;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  top: 54px;
+
+  /* divider */
+
+  background: #ebeff2;
+}
+
+.filter {
+  /* filter */
+
+  position: absolute;
+  width: 119px;
+  height: 18px;
+  left: 302px;
+  top: 19px;
+}
+
+.email-type {
+  /* email_type */
+
+  position: absolute;
+  width: 119px;
+  height: 18px;
+  left: 302px;
+  top: 19px;
+}
+
+.polygon {
+  /* Polygon */
+
+  position: absolute;
+  visibility: hidden;
+  width: 7px;
+  height: 4px;
+  left: 421px;
+  top: 30px;
+
+  /* dropdown_icon */
+
+  background: #aeaeae;
+  transform: rotate(-180deg);
+}
+
+.Show {
+  /* Show: This month */
+
+  position: absolute;
+  width: 106px;
+  height: 18px;
+  left: 302px;
+  top: 19px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  color: #6a707e;
+}
+
+.tasksText {
+  /* Tasks */
+
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: -4.55%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  /* black */
+
+  color: #192a3e;
+}
+
+.task_status {
+  position: absolute;
+  width: 48px;
+  height: 16px;
+  left: 320px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+}
+
+.active_task.ellips2 {
+  /* Ellipse 2 */
+
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 320px;
+  top: 168px;
+
+  /* yellow */
+
+  border: 2px solid #ffb946;
+  box-sizing: border-box;
+}
+
+.regular_10 {
+  /* text/regular_10 */
+
+  position: absolute;
+  width: 32px;
+  height: 16px;
+  left: 336px;
+  top: 164px;
+}
+.statustext {
+  /* Active */
+
+  position: absolute;
+  left: 320px;
+  top: 168px;
+
+  /* black */
+
+  color: #192a3e;
+}
+
+.text {
+  /* Completed */
+
+  position: absolute;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+
+  /* black */
+
+  color: #192a3e;
+}
+
+.task_container {
+  position: absolute;
+  width: 445px;
+  height: 344px;
+  right: 38px;
+  top: 500px;
+}
